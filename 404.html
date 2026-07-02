@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<title>Redirecting...</title>
+<script>
+(function () {
+  // rewrite host from ejake28.github.io -> game-u.github.io, keep path + query + hash
+  var p = window.location.pathname;
+  var s = window.location.search;
+  var h = window.location.hash;
+  window.location.replace('https://game-u.github.io' + p + s + h);
+})();
+</script>
+</head><body style="font-family:-apple-system,sans-serif;text-align:center;padding-top:120px">
+<p>Moved to game-u.github.io. Redirecting...</p>
+</body></html>
